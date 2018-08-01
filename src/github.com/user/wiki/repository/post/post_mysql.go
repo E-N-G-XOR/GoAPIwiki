@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	models "models"
-	pRepo "repository"
+	models "github.com/user/wiki/models"
+	pRepo "github.com/user/wiki/repository"
 )
 
 // NewSQLPostRepo retunrs implement of post repository interface

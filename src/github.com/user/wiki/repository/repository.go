@@ -3,7 +3,7 @@ package repsitory
 import (
 	"context"
 
-	"models"
+	"github.com/user/wiki/models"
 )
 
 // PostRepo explain...

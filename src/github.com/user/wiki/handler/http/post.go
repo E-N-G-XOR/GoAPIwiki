@@ -7,11 +7,12 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/user/wiki/driver"
+	models "github.com/user/wiki/models"
+	repository "github.com/user/wiki/repository"
+	post "github.com/user/wiki/repository/post"
+
 	"github.com/go-chi/chi"
-	"driver"
-	models "models"
-	repository "repository"
-	post "repository/post"
 )
 
 // NewPostHandler ...

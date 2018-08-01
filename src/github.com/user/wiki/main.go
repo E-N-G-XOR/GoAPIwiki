@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"driver"
-	"handler/http"
+	"github.com/user/wiki/driver"
+	"github.com/user/wiki/handler/http"
 )
 
 func main() {
