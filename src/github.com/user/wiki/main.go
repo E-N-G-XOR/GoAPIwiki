@@ -12,10 +12,17 @@ import (
 )
 
 func main() {
-	dbName := os.Getenv("DB_NAME")
-	dbPass := os.Getenv("DB_PASS")
-	dbHost := os.Getenv("DB_HOST")
-	dbPort := os.Getenv("DB_PORT")
+	/*
+		dbName := os.Getenv("DB_NAME")
+		dbPass := os.Getenv("DB_PASS")
+		dbHost := os.Getenv("DB_HOST")
+		dbPort := os.Getenv("DB_PORT")
+	*/
+
+	dbName := "wiki"
+	dbPass := "root"
+	dbHost := "db"
+	dbPort := "3306"
 
 	println("this is db", dbName, dbHost, dbPass, dbPort)
 
