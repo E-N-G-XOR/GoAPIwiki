@@ -46,6 +46,6 @@ func main() {
 	r.Put("/posts/update/{id}", pHandler.Update)
 	r.Delete("/posts/{id}", pHandler.Delete)
 
-	fmt.Println("Server listen at :6600")
+	fmt.Println("API Server is listening at :6600")
 	http.ListenAndServe(":6600", r)
 }
