@@ -24,7 +24,10 @@ func main() {
 	dbHost := "db"
 	dbPort := "3306"
 
-	println("this is db", dbName, dbHost, dbPass, dbPort)
+	println("This is DB Host: ", dbHost)
+	println("This is DB Name: ", dbName)
+	println("This is DB Port: ", dbPort)
+	println("This is DB root Pass: ", dbPass)
 
 	connection, err := driver.ConnectSQL(dbHost, dbPort, "root", dbPass, dbName)
 	if err != nil {
